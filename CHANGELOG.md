@@ -5,6 +5,55 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0](https://github.com/pmiriyev/ansible-role-fail2ban2/compare/v1.4.2...v1.5.0) (2026-06-28)
+
+
+### Features
+
+* **fail2ban:** align role with Red Hat CoP standards ([f5f081e](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/f5f081ee201534f6ea8be701f7bbaa6f20b94785))
+* **fail2ban:** align role with Red Hat CoP standards ([69aa889](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/69aa8890ea7f7a37dbe71f740c388fb4f45e604c))
+* **fail2ban:** improve correctness, robustness, and docs ([ccab18f](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/ccab18ffe94a3679e49f9f2f975127af97060f5f))
+* migrate to centralized CI, Release Please, and Galaxy publish ([#3](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/3)) ([8b63bbb](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/8b63bbb9cc5339cb8a16b5baf30fadf321e73858))
+
+
+### Bug Fixes
+
+* **ci:** upgrade to Node.js 24 actions and standardize enterprise naming ([36f6a76](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/36f6a7623aac54419dee2e4f51ab35ad15a8349c))
+* **ci:** upgrade to Node.js 24 actions and standardize enterprise naming ([c2f5553](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/c2f5553d3c2044f691deac5e8811efd6add7eee2))
+* **compatibility:** migrate to ansible_facts syntax and fix upgrade logic ([96dd24d](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/96dd24d5b7680f316d0f309b3b72def3c4bf7faa))
+
+
+### Code Refactoring
+
+* standardize comments, headers, and validations ([#8](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/8)) ([1670ab4](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/1670ab491ff6d26b9c8b947f6a24e2652d30a508))
+
+
+### Documentation
+
+* add Verification section and standardize H2 emojis in README.md ([#6](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/6)) ([bc5cb4f](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/bc5cb4ffd4ed1798ac9ead5edee2f2475ca044e9))
+* Fix workflow filename in README badge 🔧 ([8272a46](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/8272a46c231141f21b18dc36c7d7143c66ccac42))
+* Polish documentation, changelog and ensure full lint compliance for fail2ban role ✅ ([cff5506](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/cff55062dbcbe002d9dbea8bdb62dac096a19bcc))
+* Update CHANGELOG date to current (2025-07-04) 📅 ([275b467](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/275b467abd0115210a08295066e4baf4799f43b3))
+
+
+### CI/CD
+
+* align github workflows and gitignore with standard layout ([#5](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/5)) ([8cc57d9](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/8cc57d93da05b30ff1d663b6942cb96f41dce544))
+
+
+### Miscellaneous
+
+* **fail2ban:** align role with internal Ansible rules; update docs ([09da3cb](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/09da3cb4cb3691d20bc70046e520c515edd23c7c))
+* **main:** release 1.4.0 ([#4](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/4)) ([2e547a0](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/2e547a0c228528165b50c8579613c9b17f48792a))
+* **main:** release 1.4.1 ([#7](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/7)) ([f095b5b](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/f095b5b7efcd68d0dd585e9879f422a640cb24f2))
+* **main:** release 1.4.2 ([#9](https://github.com/pmiriyev/ansible-role-fail2ban2/issues/9)) ([163f1ac](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/163f1ac3f26c332d1306ca32e925dab232a148bb))
+
+
+### Tests
+
+* Add molecule.yml configuration for Docker-based testing 🧪 ([3d22d18](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/3d22d18d1c5cac4bc0d6011b63c3ec0ea385cce7))
+* Add shadow file permission fix to molecule prepare tasks 🔧 ([efb59ab](https://github.com/pmiriyev/ansible-role-fail2ban2/commit/efb59ab15920879d0a97417835712a0ac1d772ad))
+
 ## [1.4.2](https://github.com/grzegorzfranus/ansible-role-fail2ban/compare/v1.4.1...v1.4.2) (2026-06-02)
 
 
